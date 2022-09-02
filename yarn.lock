@@ -188,6 +188,7 @@ __metadata:
 "@next/swc-linux-x64-gnu@npm:12.2.5":
   version: 12.2.5
   resolution: "@next/swc-linux-x64-gnu@npm:12.2.5::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40next%2Fswc-linux-x64-gnu%2F-%2Fswc-linux-x64-gnu-12.2.5.tgz"
+  checksum: d921f7894858bb85604185d67da215f8749acd62b9a06e3b9907a664f04b6c9c401d7ce4331e65b582f3b4f7b5d0e97e91ecf4a087c1e33879e31bb1c59d5bfe
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -4949,6 +4950,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs@workspace:."
   dependencies:
+    "@next/swc-linux-x64-gnu": 12.2.5
     "@types/node": ^18.7.14
     "@types/react": ^18.0.18
     "@wix/data-backend-public-sdk-poc": "https://cdn.dev.wixpress.com/@wix/data-backend-public-sdk-poc/8f859462c1e239f9556da734fc632b45bc67d792b3975ea759c0bc3d.tar.gz"
