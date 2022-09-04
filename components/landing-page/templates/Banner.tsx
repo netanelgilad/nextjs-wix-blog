@@ -4,10 +4,12 @@ import { Button } from '../button/Button';
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
-const Banner = () => (
+const Banner = (props: {
+  cta: string
+}) => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      title={props.cta}
       subtitle="Start your Free Trial."
       button={
         <Link href="https://creativedesignsguru.com/category/nextjs/">

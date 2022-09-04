@@ -29,7 +29,7 @@ const Base = (props: { homePage: any }) => (
       usersFeatureDescription={props.homePage.usersFeatureDescription}
       usersFeatureImage={props.homePage.usersFeatureImage}
     />
-    <Banner />
+    <Banner cta={props.homePage.bottomCtaDescription} />
     <Footer />
   </div>
 );
