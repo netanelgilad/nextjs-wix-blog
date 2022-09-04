@@ -16,7 +16,8 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "ricos-viewer": "^8.72.50"
+    "ricos-viewer": "^8.72.50",
+    "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
     "@next/swc-linux-x64-gnu": "12.2.5",
